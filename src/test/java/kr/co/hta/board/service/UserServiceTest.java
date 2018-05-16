@@ -30,6 +30,11 @@ public class UserServiceTest {
 	}
 	
 	@Test
+	public void tesetDetailUser() {
+		
+	}
+	
+	@Test
 	public void testAddNewUser() {
 		User user = new User();
 		user.setId("moon");
