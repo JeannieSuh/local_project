@@ -27,7 +27,7 @@ public class BookServiceTest {
 	public void testConfig() {
 		assertThat(bookService, notNullValue());
 	}
-
+	
 	@Test
 	public void testSearchBooks() {
 		Criteria c = new Criteria();
